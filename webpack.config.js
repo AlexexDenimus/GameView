@@ -11,16 +11,5 @@ module.exports = {
   devServer: {
     contentBase: './build/'
   },
-  // module: {
-  //   rules: [
-  //     {
-  //       test: /\.js$/,
-  //       loader: 'babel-loader',
-  //       query: {
-  //         presets: ['es2015']
-  //       }
-  //     }
-  //   ]
-  // },
   devtool: 'source-map'
 };

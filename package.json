@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --open",
-    "build": "rm -r ./build | webpack"
+    "build": "rm -r ./build | webpack",
+    "precommit": "lint-staged",
+    "eslint": "node_modules/.bin/eslint src/"
   },
   "repository": {
     "type": "git",
@@ -22,8 +24,25 @@
     "@babel/core": "^7.6.0",
     "babel-loader": "^8.0.6",
     "babel-preset-es2015": "^6.24.1",
+    "eslint": "^6.3.0",
+    "eslint-config-prettier": "^6.2.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^3.0.5",
+    "lint-staged": "^9.2.5",
+    "prettier": "^1.18.2",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.8",
     "webpack-dev-server": "^3.8.0"
+  },
+  "lint-staged": {
+    "*.{js, svelte}": [
+      "prettier --write",
+      "node_modules/.bin/eslint --max-warnings=0"
+    ]
   }
 }
