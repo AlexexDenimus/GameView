@@ -1,0 +1,34 @@
+{
+    "cards": [
+        {
+            "title": "Skateboard",
+            "description": "This my skateboard! It's so cool",
+            "price": 100
+        },
+        {
+            "title": "Dishes",
+            "description": "Dishes for my mom",
+            "price": 1200
+        },
+        {
+            "title": "Food",
+            "description": "Itadaki mas",
+            "price": 100
+        },
+        {
+            "title": "Shoes",
+            "description": "Govnadavs from Giorgio Armani",
+            "price": 600
+        },
+        {
+            "title": "Laptop",
+            "description": "Dab dab dab top",
+            "price": 100
+        },
+        {
+            "title": "Jacket",
+            "description": "Jackie chen wore it",
+            "price": 100
+        }
+    ]
+}
