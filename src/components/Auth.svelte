@@ -4,10 +4,6 @@
   const switchAdmin = () => (isAdmin = !isAdmin);
 </script>
 
-<style>
-
-</style>
-
 <p class="sarabun">
   Hello, {$userType} to become a{$userType === 'admin' ? ' user' : 'n admin'},
   click the

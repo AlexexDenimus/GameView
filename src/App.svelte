@@ -1,19 +1,17 @@
 <script>
   import { Router, Link, Route } from 'svelte-routing';
-  import { Auth } from './components/Auth';
+  import Auth from './components/Auth.svelte';
+  import Main from './components/Main.svelte';
 
   export let url = '';
 </script>
 
 <Router {url}>
   <nav>
-    <Link to="/">Home</Link>
-    <Link to="auth">Auth</Link>
+    <Link to="/">Auth</Link>
+    <Link to="/main">Main</Link>
   </nav>
   <div>
-    <Route path="auth" component={Auth} />
-    <Route path="/">
-      <div>home page</div>
-    </Route>
-  </div>
+    <Route path="/" component={Auth} />
+    <Route path="/main" component={Main} />
 </Router>
