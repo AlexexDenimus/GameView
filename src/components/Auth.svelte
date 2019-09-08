@@ -1,9 +1,25 @@
 <script>
-  // import { userType, setUserType } from '../store';
+  import { setUserType } from '../store';
+
+  import Form from './Form.svelte';
+  import SignButton from './SignButton.svelte';
 </script>
 
-<div>
-  <h1>Login</h1>
-  <button>Login as shopper</button>
-  <button>Login as admin</button>
+<style>
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+  }
+</style>
+
+<div class="wrapper">
+  <Form>
+    <h1>Login</h1>
+    <SignButton text="Login as shopper" on:click={() => setUserType('user')} />
+    <SignButton
+      text="Login as admin"
+      isPrimary={false}
+      on:click={() => setUserType('admin')} />
+  </Form>
 </div>
