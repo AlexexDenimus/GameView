@@ -60,4 +60,3 @@
     <a href="#menu">try it now.</a>
   </div>
 </div>
-<Card />
