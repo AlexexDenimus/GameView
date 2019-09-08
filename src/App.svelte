@@ -7,11 +7,8 @@
 </script>
 
 <Router {url}>
-  <nav>
-    <Link to="/">Auth</Link>
-    <Link to="/main">Main</Link>
-  </nav>
   <div>
     <Route path="/" component={Auth} />
     <Route path="/main" component={Main} />
+  </div>
 </Router>

@@ -6,9 +6,11 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'index.js',
+    publicPath: '/'
   },
   devServer: {
     contentBase: './build/',
+    historyApiFallback: true
   },
   resolve: {
     alias: {
@@ -42,7 +44,13 @@ module.exports = {
             loader: 'file-loader',
           },
         ],
-      },
+      },{
+      test: /\.svg$/,
+      loader: 'svg-inline-loader',
+      options: {
+        removeSVGTagAttrs: true
+      }
+    }
     ],
   },
   devtool: 'source-map',
