@@ -46,6 +46,9 @@
   a:active {
     background: #bbbbbb;
   }
+  img {
+    width: 100vw;
+  }
 </style>
 
 <div class="wrapper">

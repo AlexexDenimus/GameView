@@ -44,7 +44,13 @@ module.exports = {
             loader: 'file-loader',
           },
         ],
-      },
+      },{
+      test: /\.svg$/,
+      loader: 'svg-inline-loader',
+      options: {
+        removeSVGTagAttrs: true
+      }
+    }
     ],
   },
   devtool: 'source-map',
