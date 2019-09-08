@@ -49,5 +49,8 @@
       "prettier --write",
       "node_modules/.bin/eslint --max-warnings=0"
     ]
+  },
+  "dependencies": {
+    "svelte-routing": "^1.4.0"
   }
 }

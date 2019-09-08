@@ -1,14 +1,19 @@
 <script>
-  import { userType, setUserType } from "./store";
+  import { Router, Link, Route } from 'svelte-routing';
+  import { Auth } from './components/Auth';
 
-  const switchAdmin = () => (isAdmin = !isAdmin);
+  export let url = '';
 </script>
 
-<p>
-  Hello, {$userType} to become a{$userType === 'admin' ? ' user' : 'n admin'},
-  click the
-  <button
-    on:click={() => setUserType($userType === 'admin' ? 'user' : 'admin')}>
-    button
-  </button>
-</p>
+<Router {url}>
+  <nav>
+    <Link to="/">Home</Link>
+    <Link to="auth">Auth</Link>
+  </nav>
+  <div>
+    <Route path="auth" component={Auth} />
+    <Route path="/">
+      <div>home page</div>
+    </Route>
+  </div>
+</Router>

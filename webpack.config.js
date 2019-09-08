@@ -1,5 +1,4 @@
 var path = require('path');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -22,7 +21,10 @@ module.exports = {
     rules: [
       {
         test: /\.(html|svelte)$/,
-        exclude: /node_modules/,
+        // exclude: /node_modules/,
+        // include: [
+        //   path.resolve('node_modules', 'svelte-routing'),
+        // ],
         loader: 'svelte-loader',
         options: {
           emitCss: true,
@@ -30,11 +32,8 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: 'css-loader',
-        }),
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },
