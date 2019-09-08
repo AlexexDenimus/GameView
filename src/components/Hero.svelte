@@ -1,5 +1,6 @@
 <script>
   import heroImg from '../img/Hero.jpg';
+  import Card from './Card.svelte';
 </script>
 
 <style>
@@ -56,3 +57,4 @@
     <a href="#menu">try it now.</a>
   </div>
 </div>
+<Card />
