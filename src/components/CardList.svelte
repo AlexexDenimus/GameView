@@ -1,6 +1,6 @@
 <script>
   import Card from './Card.svelte';
-  import cardList from '../cards.json';
+  import cardList from '../cards';
 
   let cards = cardList.cards;
 </script>
@@ -28,8 +28,8 @@
 <div class="root">
     <h1>Our Shop</h1>
     <div class="grid">
-        {#each cards as {title, description, price}}
-            <Card title={title} description={description} price={price} />
+        {#each cards as {title, description, price, img}}
+            <Card title={title} description={description} price={price} img={img} />
         {/each}
     </div>
 </div>

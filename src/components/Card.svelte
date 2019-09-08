@@ -1,9 +1,8 @@
 <script>
-  import cardImg from '../img/card-test.jpg';
-
   export let title;
   export let description;
   export let price;
+  export let img;
 </script>
 
 <style>
@@ -55,7 +54,7 @@
 </style>
 
 <div class="wrapper">
-  <img src={cardImg} alt="test" />
+  <img src={img} alt="test" />
   <div class="text">
     <div class="info">
       <span class="name">{title}</span>
