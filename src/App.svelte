@@ -9,6 +9,6 @@
 <Router {url}>
   <div>
     <Route path="/auth" component={Auth} />
-    <Route path="/main" component={Main} />
+    <Route path="/" component={Main} />
   </div>
 </Router>
