@@ -6,17 +6,17 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: 'index.js'
+    filename: 'index.js',
   },
   devServer: {
-    contentBase: './build/'
+    contentBase: './build/',
   },
   resolve: {
     alias: {
-      svelte: path.resolve('node_modules', 'svelte')
+      svelte: path.resolve('node_modules', 'svelte'),
     },
     extensions: ['.mjs', '.js', '.svelte'],
-    mainFields: ['svelte', 'browser', 'module', 'main']
+    mainFields: ['svelte', 'browser', 'module', 'main'],
   },
   module: {
     rules: [
@@ -26,8 +26,8 @@ module.exports = {
         loader: 'svelte-loader',
         options: {
           emitCss: true,
-          hotReload: true
-        }
+          hotReload: true,
+        },
       },
       {
         test: /\.css$/,
@@ -35,8 +35,8 @@ module.exports = {
           fallback: 'style-loader',
           use: 'css-loader',
         }),
-      }
-    ]
+      },
+    ],
   },
-  devtool: 'source-map'
+  devtool: 'source-map',
 };
