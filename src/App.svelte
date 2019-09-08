@@ -14,4 +14,5 @@
   <div>
     <Route path="/" component={Auth} />
     <Route path="/main" component={Main} />
+  </div>
 </Router>

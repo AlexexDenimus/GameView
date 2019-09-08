@@ -6,9 +6,11 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'index.js',
+    publicPath: '/',
   },
   devServer: {
     contentBase: './build/',
+    historyApiFallback: true,
   },
   resolve: {
     alias: {
