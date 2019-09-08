@@ -1,6 +1,6 @@
 <script>
   import { Router, Link, Route } from 'svelte-routing';
-  import { Auth } from './components/Auth';
+  import Auth from './components/Auth.svelte';
 
   export let url = '';
 </script>
