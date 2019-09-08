@@ -1,4 +1,5 @@
 <script>
+    import { link } from "svelte-routing";
     import logo from '../img/ECO_logo.svg';
     import cart from '../img/shopping-cart.svg';
 
@@ -25,6 +26,7 @@
         color: #000000;
         font-weight: 300;
         cursor: pointer;
+        text-decoration: none;
     }
     .cart {
         width: 32px;
@@ -36,19 +38,19 @@
         display: flex;
     }
 </style>
-        <div>
-        <div class="black-line" />
-        <div class="root">
-            <div class="logo">
-                {@html logo}
-            </div>
-            <div class="panel">
-                <p class="text sarabun">log in</p>
-                <div class="cart">
-                    {@html cart}
-                </div>
-                <p class="text sarabun">card</p>
-            </div>
+<div>
+    <div class="black-line" />
+    <div class="root">
+        <div class="logo">
+            {@html logo}
         </div>
-      </div>
+        <div class="panel">
+            <a href="/" class="text sarabun" use:link>log in</a>
+            <div class="cart">
+                {@html cart}
+            </div>
+            <span class="text sarabun">card</span>
+        </div>
+    </div>
+</div>
       
