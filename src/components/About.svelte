@@ -5,14 +5,13 @@
 
 <style>
     .root {
-        min-width: 100vw;
+        min-width: 100%;
         min-height: 770px;
         background: url('../img/footer.jpg') center / 100% 100% no-repeat;
         color: white;    
     }
     .text_block {
-        padding: 80px 538px 0 243px;
-        width: 100%;
+        padding: 80px 0 0 243px;
         display: flex;
         flex-direction: column;
     }

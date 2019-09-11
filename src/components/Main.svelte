@@ -18,9 +18,17 @@
   });
 </script>
 
-<Header />
-<Hero />
-<CardList />
-<About />
-<Footer />
+<style>
+  .root {
+    width: 100%;
+  }
+</style>
+
+<div class="root">
+  <Header />
+  <Hero />
+  <CardList />
+  <About />
+  <Footer />
+</div>
 

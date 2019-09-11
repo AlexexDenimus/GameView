@@ -12,11 +12,11 @@
   .wrapper {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    min-width: 300px;
   }
   img {
-    max-height: 180px;
-    max-width: 100%;
+    height: 164px;
+    width: 100%;
   }
   .info {
     display: flex;
