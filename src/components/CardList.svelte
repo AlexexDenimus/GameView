@@ -2,7 +2,7 @@
   import Card from './Card.svelte';
   import cardList from '../cards';
 
-  let cards = cardList.cards;
+  let { cards } = cardList;
 </script>
 
 <style>

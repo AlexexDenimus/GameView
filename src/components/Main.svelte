@@ -5,6 +5,9 @@
   import Header from './Header.svelte';
   import Hero from './Hero.svelte';
   import CardList from './CardList.svelte';
+  import About from './About.svelte';
+  import Footer from './Footer.svelte';
+
 
   import { userType } from '../store';
 
@@ -18,3 +21,6 @@
 <Header />
 <Hero />
 <CardList />
+<About />
+<Footer />
+

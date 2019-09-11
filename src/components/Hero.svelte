@@ -1,6 +1,5 @@
 <script>
   import heroImg from '../img/Hero.jpg';
-  import Card from './Card.svelte';
 </script>
 
 <style>
