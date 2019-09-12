@@ -2,6 +2,7 @@
   import { navigate } from 'svelte-routing';
 
   import { setUserType } from '../store';
+  import { USER_TYPE } from '../consts';
 
   import Form from './Form.svelte';
   import SignButton from './SignButton.svelte';
@@ -23,10 +24,10 @@
 <div class="wrapper">
   <Form>
     <h1>Login</h1>
-    <SignButton text="Login as shopper" on:click={() => onClick('user')} />
+    <SignButton text="Login as shopper" on:click="{() => onClick(USER_TYPE.user)}" />
     <SignButton
       text="Login as admin"
       isPrimary={false}
-      on:click={() => onClick('admin')} />
+      on:click="{() => onClick(USER_TYPE.admin)}" />
   </Form>
 </div>

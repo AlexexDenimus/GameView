@@ -4,6 +4,9 @@
   import SignButton from './SignButton.svelte';
   import AddCart from './AddCart.svelte';
 
+  import { userType } from '../store';
+  import { USER_TYPE } from '../consts';
+
   let { cards } = cardList;
   let openModal = false;
 </script>
@@ -32,19 +35,21 @@
     }
 </style>
 
-<div class="root">
+<div class="root" id="grid">
     <h1>Our Shop</h1>
     <div class="grid">
         {#each cards as {title, description, price, img}}
             <Card title={title} description={description} price={price} img={img} />
         {/each}
     </div>
+    {#if $userType === USER_TYPE.admin}
     <div class="add">
-        <SignButton text="Add" on:click={() => { return openModal = true }} />
+        <SignButton text="Add" on:click="{() => { return openModal = true }}" />
     </div>
+    {/if}
     {#if openModal}
         <AddCart>
-            <SignButton isPrimary={false} text="Cancel" on:click={() => { return openModal = false }}/>
+            <SignButton isPrimary={false} text="Cancel" on:click="{() => { return openModal = false }}"/>
         </AddCart>
     {/if}
 </div>

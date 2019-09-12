@@ -20,6 +20,7 @@
     padding: 10px;
     width: 100%;
     text-transform: uppercase;
+    border: none;
   }
 </style>
 

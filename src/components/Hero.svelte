@@ -56,6 +56,6 @@
     <span class="clean">clean.</span>
     <span class="ecology">ecology.</span>
     <span class="recycled">recycled.</span>
-    <a href="#menu">try it now.</a>
+    <a href="#grid">try it now.</a>
   </div>
 </div>

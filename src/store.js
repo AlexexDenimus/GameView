@@ -1,9 +1,10 @@
 import { writable } from 'svelte/store';
 
+import { USER_TYPE } from './consts';
+
 export const userType = writable('');
 
 export function setUserType (newUserType) {
-  console.log('set userType');
-  (newUserType === 'user' || newUserType === 'admin') &&
+  (newUserType === USER_TYPE.user || newUserType === USER_TYPE.admin) &&
     userType.set(newUserType);
 }
