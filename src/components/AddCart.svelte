@@ -1,7 +1,21 @@
 <script>
+	import { createEventDispatcher } from 'svelte';
+
     import Blur from './Blur.svelte';
     import Form from './Form.svelte';
     import SignButton from './SignButton.svelte';
+
+    const dispatch = createEventDispatcher();
+
+    const addNewItem = () => {
+      const title = document.getElementById('title').value;
+      const price = document.getElementById('price').value;
+      const description = document.getElementById('description').value;
+      const img = document.getElementById('img').value;
+      dispatch('ADD_ITEM', {
+        title, price, description, img
+      })
+    };
 </script>
 
 <style>
@@ -38,12 +52,12 @@
     <Blur />
     <Form>
         <h3>Create <span>your own</span> product</h3>
-        <input placeholder="Product name" />
-        <input type=number placeholder="Product price" />
-        <textarea placeholder="Product description" ></textarea>
-        <input placeholder="Picture link" />
+        <input placeholder="Product name" id="title" />
+        <input type=number placeholder="Product price" id="price" />
+        <textarea placeholder="Product description" id="description" ></textarea>
+        <input placeholder="Picture link" id="img" />
         <div class="buttons">
-            <SignButton text="Add" />
+            <SignButton text="Add" on:click={addNewItem} />
             <slot></slot>
         </div>
     </Form>

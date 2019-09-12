@@ -9,6 +9,12 @@
 
   let { cards } = cardList;
   let openModal = false;
+
+  const onAddItem = (event) => {
+    cards = [...cards, event.detail];
+    openModal = false;
+    console.log(cards);
+  }
 </script>
 
 <style>
@@ -48,7 +54,7 @@
     </div>
     {/if}
     {#if openModal}
-        <AddCart>
+        <AddCart on:ADD_ITEM={onAddItem}>
             <SignButton isPrimary={false} text="Cancel" on:click="{() => { return openModal = false }}"/>
         </AddCart>
     {/if}
