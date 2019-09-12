@@ -6,8 +6,8 @@
   import Form from './Form.svelte';
   import SignButton from './SignButton.svelte';
 
-  const onClick = usrType => {
-    setUserType(usrType);
+  const onClick = userType => {
+    setUserType(userType);
     navigate('/');
   };
 </script>

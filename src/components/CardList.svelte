@@ -1,8 +1,11 @@
 <script>
   import Card from './Card.svelte';
   import cardList from '../cards';
+  import SignButton from './SignButton.svelte';
+  import AddCart from './AddCart.svelte';
 
   let { cards } = cardList;
+  let openModal = false;
 </script>
 
 <style>
@@ -23,6 +26,10 @@
 		grid-gap: 20px;
         margin: 24px auto 64px;
     }
+    .add {
+        width: 64px;
+        margin: 0 auto 64px;
+    }
 </style>
 
 <div class="root">
@@ -32,6 +39,14 @@
             <Card title={title} description={description} price={price} img={img} />
         {/each}
     </div>
+    <div class="add">
+        <SignButton text="Add" on:click={() => { return openModal = true }} />
+    </div>
+    {#if openModal}
+        <AddCart>
+            <SignButton isPrimary={false} text="Cancel" on:click={() => { return openModal = false }}/>
+        </AddCart>
+    {/if}
 </div>
 
 
