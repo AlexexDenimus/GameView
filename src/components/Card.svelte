@@ -1,11 +1,25 @@
 <script>
-  import { userType } from '../store'
+  import Checkmark from './Checkmark.svelte';
+
+  import { userType, addToCart } from '../store'
   import { USER_TYPE } from '../consts';
 
   export let title;
   export let description;
   export let price;
   export let img;
+  let successStack = [];
+
+
+  function add(item) {
+    addToCart(item);
+    successStack = [...successStack, 'success'];
+    console.log({successStack});
+  }
+
+  const popStack = () => {
+  	successStack = successStack.slice(1, successStack.length);
+  }
 </script>
 
 <style>
@@ -57,6 +71,8 @@
     padding: 10px;
     border: none;
     margin-top: 10px;
+    position: relative;
+    outline: none;
   }
 </style>
 
@@ -71,7 +87,11 @@
   </div>
   <div class='{$userType === USER_TYPE.user ? "button" : "buttons"}'>
   {#if $userType === USER_TYPE.user}
-    <button>add to cart</button>
+    <button
+      on:click="{() => add({title, description, price, img})}"
+    >add to cart
+      <Checkmark stack={successStack} popStack={popStack} />
+    </button>
   {:else}
     <button>edit item</button>
     <button>remove item</button>
