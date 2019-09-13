@@ -2,6 +2,8 @@
   import { link } from 'svelte-routing';
   import logo from '../img/ECO_logo.svg';
   import cart from '../img/shopping-cart.svg';
+
+  import {userType} from '../store';
 </script>
 
 <style>
@@ -45,7 +47,7 @@
       {@html logo}
     </div>
     <div class="panel">
-      <a href="/auth" class="text sarabun" use:link>log in</a>
+      <a href="/auth" class="text sarabun" use:link>log {$userType === '' ? 'in' : 'out'}</a>
       <div class="cart">
         {@html cart}
       </div>
