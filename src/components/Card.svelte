@@ -1,4 +1,7 @@
 <script>
+  import { userType } from '../store'
+  import { USER_TYPE } from '../consts';
+
   export let title;
   export let description;
   export let price;
@@ -43,6 +46,10 @@
     display: flex;
     justify-content: flex-end;
   }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
   button {
     background: #ced7f9;
     color: #3b7632;
@@ -62,7 +69,12 @@
     </div>
     <span class="price">${price}</span>
   </div>
-  <div class="button">
+  <div class='{$userType === USER_TYPE.user ? "button" : "buttons"}'>
+  {#if $userType === USER_TYPE.user}
     <button>add to cart</button>
+  {:else}
+    <button>edit item</button>
+    <button>remove item</button>
+  {/if}
   </div>
 </div>

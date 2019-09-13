@@ -5,6 +5,7 @@
 <style>
   .wrapper {
     position: relative;
+    overflow-x: hidden;
   }
   .text {
     position: absolute;
@@ -45,13 +46,16 @@
   a:active {
     background: #bbbbbb;
   }
-  img {
-    width: 100%;
+  .img {
+    min-height: 90vh;
+    min-width: 100%;
+    background: url('../img/Hero.jpg') center;
+    background-size: cover;
   }
 </style>
 
 <div class="wrapper">
-  <img src={heroImg} alt="hero" />
+  <div class="img" />
   <div class="text">
     <span class="clean">clean.</span>
     <span class="ecology">ecology.</span>

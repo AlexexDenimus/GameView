@@ -7,9 +7,17 @@
   import CardList from './CardList.svelte';
   import About from './About.svelte';
   import Footer from './Footer.svelte';
-
+  import Cart from './Cart.svelte';
 
   import { userType } from '../store';
+
+  let isCartOpen = false;
+
+  function switchCart() {
+    isCartOpen = !isCartOpen;
+  }
+
+  $: rootClasses = isCartOpen ? 'root with-cart' : 'root';
 
   onMount(() => {
     if ($userType !== 'admin' && $userType !== 'user') {
@@ -21,14 +29,21 @@
 <style>
   .root {
     width: 100%;
+    transition: transform .3s ease-out;
+  }
+  .with-cart {
+    transform: translateX(-50px);
   }
 </style>
 
-<div class="root">
-  <Header />
+<div class={rootClasses}>
+  <Header on:cartClick={switchCart} />
   <Hero />
   <CardList />
   <About />
   <Footer />
 </div>
+<aside>
+  <Cart open={ isCartOpen } />
+</aside>
 

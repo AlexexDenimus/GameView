@@ -1,9 +1,16 @@
 <script>
   import { link } from 'svelte-routing';
+  import { createEventDispatcher } from 'svelte';
   import logo from '../img/ECO_logo.svg';
   import cart from '../img/shopping-cart.svg';
 
   import {userType} from '../store';
+
+  const dispatch = createEventDispatcher();
+
+  function cartClick() {
+    dispatch('cartClick', {});
+  }
 </script>
 
 <style>
@@ -51,7 +58,7 @@
       <div class="cart">
         {@html cart}
       </div>
-      <span class="text sarabun">card</span>
+      <span class="text sarabun" on:click={cartClick}>cart</span>
     </div>
   </div>
 </div>
