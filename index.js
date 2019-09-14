@@ -98,7 +98,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 var getUrl = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
 var ___CSS_LOADER_URL___0___ = getUrl(__webpack_require__(/*! ../img/footer.jpg */ "./src/img/footer.jpg"));
 // Module
-exports.push([module.i, ".root.svelte-1jm3kgc{min-width:100%;min-height:770px;background:url(" + ___CSS_LOADER_URL___0___ + ") center / 100% 100% no-repeat;background-size:cover;color:white}.text_block.svelte-1jm3kgc{padding:80px 0 0 243px;display:flex;flex-direction:column}h2.svelte-1jm3kgc{font-size:64px}p.svelte-1jm3kgc{font-size:36px;font-weight:300;margin-bottom:93px;width:621px}", ""]);
+exports.push([module.i, ".root.svelte-1xssspu{min-width:100%;min-height:770px;background:url(" + ___CSS_LOADER_URL___0___ + ") center / 100% 100% no-repeat;background-size:cover;color:white}.text_block.svelte-1xssspu{padding:80px 0 0 243px;display:flex;flex-direction:column}h2.svelte-1xssspu{font-size:64px}p.svelte-1xssspu{font-size:36px;font-weight:300;margin-bottom:93px;width:621px}", ""]);
 
 
 /***/ }),
@@ -112,7 +112,7 @@ exports.push([module.i, ".root.svelte-1jm3kgc{min-width:100%;min-height:770px;ba
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "h3.svelte-1yoo4hj{font-size:24px;font-weight:500}span.svelte-1yoo4hj{color:green}textarea.svelte-1yoo4hj,input.svelte-1yoo4hj{width:100%;border:none;border-radius:5px;box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.25);background-color:#ffffff;margin-top:20px;height:44px;padding-left:14px}textarea.svelte-1yoo4hj{height:140px;padding-top:8px}.buttons.svelte-1yoo4hj{display:flex;flex-direction:row;justify-content:flex-end}", ""]);
+exports.push([module.i, "h3.svelte-1jx0wrr{font-size:24px;font-weight:500}span.svelte-1jx0wrr{color:green}textarea.svelte-1jx0wrr,input.svelte-1jx0wrr{width:100%;border:none;border-radius:5px;box-shadow:0 2px 4px 0 rgba(0, 0, 0, 0.25);background-color:#ffffff;margin-top:20px;height:44px;padding-left:14px}textarea.svelte-1jx0wrr{height:140px;padding-top:8px}.buttons.svelte-1jx0wrr{display:flex;flex-direction:row;justify-content:flex-end}", ""]);
 
 
 /***/ }),
@@ -126,7 +126,7 @@ exports.push([module.i, "h3.svelte-1yoo4hj{font-size:24px;font-weight:500}span.s
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".wrapper.svelte-1g2878l{display:flex;justify-content:center;margin-top:200px}", ""]);
+exports.push([module.i, ".wrapper.svelte-1ph5nx{display:flex;justify-content:center;margin-top:200px}", ""]);
 
 
 /***/ }),
@@ -140,7 +140,7 @@ exports.push([module.i, ".wrapper.svelte-1g2878l{display:flex;justify-content:ce
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, "div.svelte-xs6r15{position:fixed;top:0;left:0;height:100vh;width:100%;background:rgba(0,0,0,0.75)}", ""]);
+exports.push([module.i, "div.svelte-1g61ope{position:fixed;top:0;left:0;height:100vh;width:100%;background:rgba(0,0,0,0.75)}", ""]);
 
 
 /***/ }),
@@ -154,7 +154,7 @@ exports.push([module.i, "div.svelte-xs6r15{position:fixed;top:0;left:0;height:10
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".svelte-a020p1{font-family:'Sarabun', sans-serif}.wrapper.svelte-a020p1{display:flex;flex-direction:column;min-width:300px}img.svelte-a020p1{height:164px;width:100%}.info.svelte-a020p1{display:flex;flex-direction:column}.text.svelte-a020p1{display:flex;justify-content:space-between}.text.svelte-a020p1,.button.svelte-a020p1{padding:0 20px}.name.svelte-a020p1{max-width:200px}.name.svelte-a020p1,.price.svelte-a020p1{font-size:24px;font-weight:100}.desc.svelte-a020p1{font-size:14px;font-weight:100}.button.svelte-a020p1{display:flex;justify-content:flex-end}.buttons.svelte-a020p1{display:flex;justify-content:space-between}button.svelte-a020p1{background:#ced7f9;color:#3b7632;font-size:18px;padding:10px;border:none;margin-top:10px;position:relative;outline:none}.wrap.svelte-a020p1{display:flex;justify-content:space-between;flex-direction:column;height:100%}", ""]);
+exports.push([module.i, ".svelte-1dczm4a{font-family:'Sarabun', sans-serif}.wrapper.svelte-1dczm4a{display:flex;flex-direction:column;min-width:300px}img.svelte-1dczm4a{height:164px;width:100%}.info.svelte-1dczm4a{display:flex;flex-direction:column}.text.svelte-1dczm4a{display:flex;justify-content:space-between}.text.svelte-1dczm4a,.button.svelte-1dczm4a{padding:0 20px}.name.svelte-1dczm4a{max-width:200px}.name.svelte-1dczm4a,.price.svelte-1dczm4a{font-size:24px;font-weight:100}.desc.svelte-1dczm4a{font-size:14px;font-weight:100}.button.svelte-1dczm4a{display:flex;justify-content:flex-end}.buttons.svelte-1dczm4a{display:flex;justify-content:space-between}button.svelte-1dczm4a{background:#ced7f9;color:#3b7632;font-size:18px;padding:10px;border:none;margin-top:10px;position:relative;outline:none}.wrap.svelte-1dczm4a{display:flex;justify-content:space-between;flex-direction:column;height:100%}", ""]);
 
 
 /***/ }),
@@ -168,7 +168,7 @@ exports.push([module.i, ".svelte-a020p1{font-family:'Sarabun', sans-serif}.wrapp
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".root.svelte-8accb3{width:100%;display:flex;flex-direction:column}h1.svelte-8accb3{font-size:64px;text-align:center;margin-top:64px;margin-bottom:24px}.grid.svelte-8accb3{display:grid;grid-template-columns:repeat(3, 300px);grid-gap:20px;margin:24px auto 64px}.add.svelte-8accb3{width:64px;margin:0 auto 64px}", ""]);
+exports.push([module.i, ".root.svelte-zzpf1p{width:100%;display:flex;flex-direction:column}h1.svelte-zzpf1p{font-size:64px;text-align:center;margin-top:64px;margin-bottom:24px}.grid.svelte-zzpf1p{display:grid;grid-template-columns:repeat(3, 300px);grid-gap:20px;margin:24px auto 64px}.add.svelte-zzpf1p{width:64px;margin:0 auto 64px}", ""]);
 
 
 /***/ }),
@@ -182,7 +182,7 @@ exports.push([module.i, ".root.svelte-8accb3{width:100%;display:flex;flex-direct
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".wrapper.svelte-12qj7qp{position:fixed;top:0;right:0;bottom:0;width:300px;background:white;transition:transform .3s ease-out;box-shadow:0 0 40px rgba(0, 0, 0, 0.3)}.description.svelte-12qj7qp{display:flex;flex-direction:row;align-items:center;justify-content:space-around;margin-bottom:24px}.closed.svelte-12qj7qp{transform:translateX(100%)}span.svelte-12qj7qp{cursor:pointer}", ""]);
+exports.push([module.i, ".wrapper.svelte-qwboor{position:fixed;top:0;right:0;bottom:0;width:300px;background:white;transition:transform .3s ease-out;box-shadow:0 0 40px rgba(0, 0, 0, 0.3)}.description.svelte-qwboor{display:flex;flex-direction:row;align-items:center;justify-content:space-around;margin-bottom:24px}.closed.svelte-qwboor{transform:translateX(100%)}span.svelte-qwboor{cursor:pointer}", ""]);
 
 
 /***/ }),
@@ -196,7 +196,7 @@ exports.push([module.i, ".wrapper.svelte-12qj7qp{position:fixed;top:0;right:0;bo
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".root.svelte-10oslm7{display:flex;flex-direction:row;align-items:flex-start;width:100%;margin-top:8px}button.svelte-10oslm7{background:#ced7f9;color:red;font-size:18px;padding:4px;border:none;margin-top:10px;position:relative;outline:none}.info.svelte-10oslm7{display:flex;flex-direction:column;align-items:flex-start;margin-left:8px;width:100%}.info_price.svelte-10oslm7{display:flex;flex-direction:row;justify-content:space-between;align-items:center;width:100%}img.svelte-10oslm7{width:80px;min-height:64px}", ""]);
+exports.push([module.i, ".root.svelte-1mzecj{display:flex;flex-direction:row;align-items:flex-start;width:100%;margin-top:8px}button.svelte-1mzecj{background:#ced7f9;color:red;font-size:18px;padding:4px;border:none;margin-top:10px;position:relative;outline:none}.info.svelte-1mzecj{display:flex;flex-direction:column;align-items:flex-start;margin-left:8px;width:100%}.info_price.svelte-1mzecj{display:flex;flex-direction:row;justify-content:space-between;align-items:center;width:100%}img.svelte-1mzecj{width:80px;min-height:64px}", ""]);
 
 
 /***/ }),
@@ -213,7 +213,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 var getUrl = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
 var ___CSS_LOADER_URL___0___ = getUrl(__webpack_require__(/*! ../img/ckeck.png */ "./src/img/ckeck.png"));
 // Module
-exports.push([module.i, ".success.svelte-1iw5x5{position:absolute;right:-25px;top:25%;width:20px;height:20px;background:green;opacity:0;animation:svelte-1iw5x5-success ease-in-out 1s infinite;background:url(" + ___CSS_LOADER_URL___0___ + ") center;background-size:cover}@keyframes svelte-1iw5x5-success{0%{opacity:0;transform:translateY(40%)}40%,60%{opacity:1;transform:none}100%{opacity:0;transform:translateY(-40%)}}", ""]);
+exports.push([module.i, ".success.svelte-wk7ghh{position:absolute;right:-25px;top:25%;width:20px;height:20px;background:green;opacity:0;animation:svelte-wk7ghh-success ease-in-out 1s infinite;background:url(" + ___CSS_LOADER_URL___0___ + ") center;background-size:cover}@keyframes svelte-wk7ghh-success{0%{opacity:0;transform:translateY(40%)}40%,60%{opacity:1;transform:none}100%{opacity:0;transform:translateY(-40%)}}", ""]);
 
 
 /***/ }),
@@ -227,7 +227,7 @@ exports.push([module.i, ".success.svelte-1iw5x5{position:absolute;right:-25px;to
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".root.svelte-1fpx11t{width:100%;display:flex;flex-direction:row;align-items:center;justify-content:space-between;margin:32px auto 50px}.link_block.svelte-1fpx11t{display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;min-height:54px;padding-left:243px}a.svelte-1fpx11t{font-size:18px;text-decoration:none}.social_block.svelte-1fpx11t{display:flex;flex-direction:row;align-items:center;padding-right:250px}.social_link.svelte-1fpx11t{width:60px;height:60px;margin-right:20px}", ""]);
+exports.push([module.i, ".root.svelte-1j27jzf{width:100%;display:flex;flex-direction:row;align-items:center;justify-content:space-between;margin:32px auto 50px}.link_block.svelte-1j27jzf{display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;min-height:54px;padding-left:243px}a.svelte-1j27jzf{font-size:18px;text-decoration:none}.social_block.svelte-1j27jzf{display:flex;flex-direction:row;align-items:center;padding-right:250px}.social_link.svelte-1j27jzf{width:60px;height:60px;margin-right:20px}", ""]);
 
 
 /***/ }),
@@ -241,7 +241,7 @@ exports.push([module.i, ".root.svelte-1fpx11t{width:100%;display:flex;flex-direc
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".form.svelte-1kselyv{background:#e4e4e4;border-radius:12px;padding:35px;width:435px;display:flex;flex-direction:column;position:fixed;top:20vh;left:calc((100% - 435px) / 2)}", ""]);
+exports.push([module.i, ".form.svelte-1ngarsz{background:#e4e4e4;border-radius:12px;padding:35px;width:435px;display:flex;flex-direction:column;position:fixed;top:20vh;left:calc((100% - 435px) / 2)}", ""]);
 
 
 /***/ }),
@@ -255,7 +255,7 @@ exports.push([module.i, ".form.svelte-1kselyv{background:#e4e4e4;border-radius:1
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".logo.svelte-1qez6xl{width:170px;height:50px}.black-line.svelte-1qez6xl{width:100%;height:60px;background-color:#15201a}.root.svelte-1qez6xl{padding:16px 250px 16px;display:flex;justify-content:space-between;align-items:flex-end}.text.svelte-1qez6xl{font-size:24px;color:#000000;font-weight:300;cursor:pointer;text-decoration:none}.cart.svelte-1qez6xl{width:32px;height:32px;margin-left:24px;margin-right:4px}.panel.svelte-1qez6xl{display:flex}", ""]);
+exports.push([module.i, ".logo.svelte-10uamnh{width:170px;height:50px}.black-line.svelte-10uamnh{width:100%;height:60px;background-color:#15201a}.root.svelte-10uamnh{padding:16px 250px 16px;display:flex;justify-content:space-between;align-items:flex-end}.text.svelte-10uamnh{font-size:24px;color:#000000;font-weight:300;cursor:pointer;text-decoration:none}.cart.svelte-10uamnh{width:32px;height:32px;margin-left:24px;margin-right:4px}.panel.svelte-10uamnh{display:flex}", ""]);
 
 
 /***/ }),
@@ -272,7 +272,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 var getUrl = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
 var ___CSS_LOADER_URL___0___ = getUrl(__webpack_require__(/*! ../img/Hero.jpg */ "./src/img/Hero.jpg"));
 // Module
-exports.push([module.i, ".wrapper.svelte-1e2zi5i{position:relative;overflow-x:hidden}.text.svelte-1e2zi5i{position:absolute;top:0;left:0;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;color:white}.clean.svelte-1e2zi5i{padding-top:79px}.clean.svelte-1e2zi5i,.ecology.svelte-1e2zi5i{font-size:96px;-webkit-font-smoothing:antialiased}.recycled.svelte-1e2zi5i{font-size:144px}a.svelte-1e2zi5i{display:block;color:black;text-decoration:none;background:#ececec;margin-top:140px;width:300px;height:60px;font-size:24px;font-weight:700;display:flex;align-items:center;justify-content:center}a.svelte-1e2zi5i:active{background:#bbbbbb}.img.svelte-1e2zi5i{min-height:90vh;min-width:100%;background:url(" + ___CSS_LOADER_URL___0___ + ") center;background-size:cover}", ""]);
+exports.push([module.i, ".wrapper.svelte-1dcw1ba{position:relative;overflow-x:hidden}.text.svelte-1dcw1ba{position:absolute;top:0;left:0;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;color:white}.clean.svelte-1dcw1ba{padding-top:79px}.clean.svelte-1dcw1ba,.ecology.svelte-1dcw1ba{font-size:96px;-webkit-font-smoothing:antialiased}.recycled.svelte-1dcw1ba{font-size:144px}a.svelte-1dcw1ba{display:block;color:black;text-decoration:none;background:#ececec;margin-top:140px;width:300px;height:60px;font-size:24px;font-weight:700;display:flex;align-items:center;justify-content:center}a.svelte-1dcw1ba:active{background:#bbbbbb}.img.svelte-1dcw1ba{min-height:90vh;min-width:100%;background:url(" + ___CSS_LOADER_URL___0___ + ") center;background-size:cover}", ""]);
 
 
 /***/ }),
@@ -286,7 +286,7 @@ exports.push([module.i, ".wrapper.svelte-1e2zi5i{position:relative;overflow-x:hi
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".root.svelte-6w9c5o{width:100%;transition:transform .3s ease-out}.with-cart.svelte-6w9c5o{transform:translateX(-50px)}", ""]);
+exports.push([module.i, ".root.svelte-19rxoiw{width:100%;transition:transform .3s ease-out}.with-cart.svelte-19rxoiw{transform:translateX(-50px)}", ""]);
 
 
 /***/ }),
@@ -300,7 +300,7 @@ exports.push([module.i, ".root.svelte-6w9c5o{width:100%;transition:transform .3s
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".primary.svelte-4owqyi{background:#3b7632;color:white}.secondary.svelte-4owqyi{background:white;color:#3b7632}button.svelte-4owqyi{border-radius:5px;margin-top:20px;font-size:18px;font-weight:600;padding:10px;width:100%;text-transform:uppercase;border:none}", ""]);
+exports.push([module.i, ".primary.svelte-33ug59{background:#3b7632;color:white}.secondary.svelte-33ug59{background:white;color:#3b7632}button.svelte-33ug59{border-radius:5px;margin-top:20px;font-size:18px;font-weight:600;padding:10px;width:100%;text-transform:uppercase;border:none}", ""]);
 
 
 /***/ }),
@@ -318,7 +318,7 @@ exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Mon
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Sarabun&display=swap);", ""]);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Sarabun:100&display=swap);", ""]);
 // Module
-exports.push([module.i, "* {\r\n  font-family: 'Montserrat', sans-serif;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n.sarabun {\r\n  font-family: 'Sarabun', sans-serif;\r\n}\r\n\r\nhtml {\r\n  scroll-behavior: smooth;\r\n}\r\n\r\n", ""]);
+exports.push([module.i, "* {\n  font-family: 'Montserrat', sans-serif;\n  margin: 0;\n  padding: 0;\n}\n\n.sarabun {\n  font-family: 'Sarabun', sans-serif;\n}\n\nhtml {\n  scroll-behavior: smooth;\n}\n\n", ""]);
 
 
 /***/ }),
@@ -766,7 +766,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _contexts_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contexts.js */ "./node_modules/svelte-routing/src/contexts.js");
 /* harmony import */ var _history_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./history.js */ "./node_modules/svelte-routing/src/history.js");
 /* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./utils.js */ "./node_modules/svelte-routing/src/utils.js");
-/* node_modules\svelte-routing\src\Link.svelte generated by Svelte v3.10.0 */
+/* node_modules/svelte-routing/src/Link.svelte generated by Svelte v3.10.0 */
 
 
 
@@ -944,7 +944,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/svelte/internal/index.mjs");
 /* harmony import */ var svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! svelte */ "./node_modules/svelte/index.mjs");
 /* harmony import */ var _contexts_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./contexts.js */ "./node_modules/svelte-routing/src/contexts.js");
-/* node_modules\svelte-routing\src\Route.svelte generated by Svelte v3.10.0 */
+/* node_modules/svelte-routing/src/Route.svelte generated by Svelte v3.10.0 */
 
 
 
@@ -1325,7 +1325,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _contexts_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contexts.js */ "./node_modules/svelte-routing/src/contexts.js");
 /* harmony import */ var _history_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./history.js */ "./node_modules/svelte-routing/src/history.js");
 /* harmony import */ var _utils_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utils.js */ "./node_modules/svelte-routing/src/utils.js");
-/* node_modules\svelte-routing\src\Router.svelte generated by Svelte v3.10.0 */
+/* node_modules/svelte-routing/src/Router.svelte generated by Svelte v3.10.0 */
 
 
 
@@ -3841,7 +3841,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var svelte_routing__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! svelte-routing */ "./node_modules/svelte-routing/src/index.js");
 /* harmony import */ var _components_Auth_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Auth.svelte */ "./src/components/Auth.svelte");
 /* harmony import */ var _components_Main_svelte__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Main.svelte */ "./src/components/Main.svelte");
-/* src\App.svelte generated by Svelte v3.10.0 */
+/* src/App.svelte generated by Svelte v3.10.0 */
 
 
 
@@ -4075,9 +4075,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/svelte/internal/index.mjs");
 /* harmony import */ var _img_footer_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/footer.jpg */ "./src/img/footer.jpg");
 /* harmony import */ var _img_footer_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_img_footer_jpg__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_About_svelte_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/components/About.svelte.css */ "./src/components/About.svelte.css");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_About_svelte_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_About_svelte_css__WEBPACK_IMPORTED_MODULE_2__);
-/* src\components\About.svelte generated by Svelte v3.10.0 */
+/* harmony import */ var _Users_maksim_GameView_src_components_About_svelte_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/components/About.svelte.css */ "./src/components/About.svelte.css");
+/* harmony import */ var _Users_maksim_GameView_src_components_About_svelte_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Users_maksim_GameView_src_components_About_svelte_css__WEBPACK_IMPORTED_MODULE_2__);
+/* src/components/About.svelte generated by Svelte v3.10.0 */
 
 
 
@@ -4087,8 +4087,8 @@ function create_fragment(ctx) {
 	return {
 		c() {
 			div_1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
-			div_1.innerHTML = `<div class="text_block svelte-1jm3kgc"><h2 class="svelte-1jm3kgc">Something about us</h2> <p class="sarabun svelte-1jm3kgc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem mauris, orci donec platea sed urna orci sed. Integer massa erat venenatis eget habitant sit. Aenean morbi semper venenatis maecenas.</p> <p class="sarabun svelte-1jm3kgc">Pretium tincidunt non dictumst lacus condimentum. Tellus ut vestibulum sem egestas dolor. Odio non id libero odio cursus. Tortor ante sapien pellentesque.</p></div>`;
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div_1, "class", "root svelte-1jm3kgc");
+			div_1.innerHTML = `<div class="text_block svelte-1xssspu"><h2 class="svelte-1xssspu">Something about us</h2> <p class="sarabun svelte-1xssspu">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem mauris, orci donec platea sed urna orci sed. Integer massa erat venenatis eget habitant sit. Aenean morbi semper venenatis maecenas.</p> <p class="sarabun svelte-1xssspu">Pretium tincidunt non dictumst lacus condimentum. Tellus ut vestibulum sem egestas dolor. Odio non id libero odio cursus. Tortor ante sapien pellentesque.</p></div>`;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div_1, "class", "root svelte-1xssspu");
 		},
 
 		m(target, anchor) {
@@ -4165,9 +4165,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Blur_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Blur.svelte */ "./src/components/Blur.svelte");
 /* harmony import */ var _Form_svelte__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Form.svelte */ "./src/components/Form.svelte");
 /* harmony import */ var _SignButton_svelte__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SignButton.svelte */ "./src/components/SignButton.svelte");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_AddCart_svelte_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./src/components/AddCart.svelte.css */ "./src/components/AddCart.svelte.css");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_AddCart_svelte_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_AddCart_svelte_css__WEBPACK_IMPORTED_MODULE_5__);
-/* src\components\AddCart.svelte generated by Svelte v3.10.0 */
+/* harmony import */ var _Users_maksim_GameView_src_components_AddCart_svelte_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./src/components/AddCart.svelte.css */ "./src/components/AddCart.svelte.css");
+/* harmony import */ var _Users_maksim_GameView_src_components_AddCart_svelte_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Users_maksim_GameView_src_components_AddCart_svelte_css__WEBPACK_IMPORTED_MODULE_5__);
+/* src/components/AddCart.svelte generated by Svelte v3.10.0 */
 
 
 
@@ -4187,7 +4187,7 @@ function create_default_slot(ctx) {
 	return {
 		c() {
 			h3 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("h3");
-			h3.innerHTML = `Create <span class="svelte-1yoo4hj">your own</span> product`;
+			h3.innerHTML = `Create <span class="svelte-1jx0wrr">your own</span> product`;
 			t3 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			input0 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("input");
 			t4 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
@@ -4202,22 +4202,22 @@ function create_default_slot(ctx) {
 			t8 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 
 			if (default_slot) default_slot.c();
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(h3, "class", "svelte-1yoo4hj");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(h3, "class", "svelte-1jx0wrr");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(input0, "placeholder", "Product name");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(input0, "id", "title");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(input0, "class", "svelte-1yoo4hj");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(input0, "class", "svelte-1jx0wrr");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(input1, "type", "number");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(input1, "placeholder", "Product price");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(input1, "id", "price");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(input1, "class", "svelte-1yoo4hj");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(input1, "class", "svelte-1jx0wrr");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(textarea, "placeholder", "Product description");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(textarea, "id", "description");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(textarea, "class", "svelte-1yoo4hj");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(textarea, "class", "svelte-1jx0wrr");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(input2, "placeholder", "Picture link");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(input2, "id", "img");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(input2, "class", "svelte-1yoo4hj");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(input2, "class", "svelte-1jx0wrr");
 
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "buttons svelte-1yoo4hj");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "buttons svelte-1jx0wrr");
 		},
 
 		l(nodes) {
@@ -4435,9 +4435,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _consts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../consts */ "./src/consts.js");
 /* harmony import */ var _Form_svelte__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Form.svelte */ "./src/components/Form.svelte");
 /* harmony import */ var _SignButton_svelte__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./SignButton.svelte */ "./src/components/SignButton.svelte");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Auth_svelte_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./src/components/Auth.svelte.css */ "./src/components/Auth.svelte.css");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Auth_svelte_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Auth_svelte_css__WEBPACK_IMPORTED_MODULE_6__);
-/* src\components\Auth.svelte generated by Svelte v3.10.0 */
+/* harmony import */ var _Users_maksim_GameView_src_components_Auth_svelte_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./src/components/Auth.svelte.css */ "./src/components/Auth.svelte.css");
+/* harmony import */ var _Users_maksim_GameView_src_components_Auth_svelte_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Users_maksim_GameView_src_components_Auth_svelte_css__WEBPACK_IMPORTED_MODULE_6__);
+/* src/components/Auth.svelte generated by Svelte v3.10.0 */
 
 
 
@@ -4527,7 +4527,7 @@ function create_fragment(ctx) {
 		c() {
 			div = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
 			form.$$.fragment.c();
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "wrapper svelte-1g2878l");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "wrapper svelte-1ph5nx");
 		},
 
 		m(target, anchor) {
@@ -4637,9 +4637,9 @@ if (content.locals) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/svelte/internal/index.mjs");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Blur_svelte_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/components/Blur.svelte.css */ "./src/components/Blur.svelte.css");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Blur_svelte_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Blur_svelte_css__WEBPACK_IMPORTED_MODULE_1__);
-/* src\components\Blur.svelte generated by Svelte v3.10.0 */
+/* harmony import */ var _Users_maksim_GameView_src_components_Blur_svelte_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/components/Blur.svelte.css */ "./src/components/Blur.svelte.css");
+/* harmony import */ var _Users_maksim_GameView_src_components_Blur_svelte_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Users_maksim_GameView_src_components_Blur_svelte_css__WEBPACK_IMPORTED_MODULE_1__);
+/* src/components/Blur.svelte generated by Svelte v3.10.0 */
 
 
 function create_fragment(ctx) {
@@ -4648,7 +4648,7 @@ function create_fragment(ctx) {
 	return {
 		c() {
 			div = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "svelte-xs6r15");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "svelte-1g61ope");
 		},
 
 		m(target, anchor) {
@@ -4724,9 +4724,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Checkmark_svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Checkmark.svelte */ "./src/components/Checkmark.svelte");
 /* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../store */ "./src/store.js");
 /* harmony import */ var _consts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../consts */ "./src/consts.js");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Card_svelte_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./src/components/Card.svelte.css */ "./src/components/Card.svelte.css");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Card_svelte_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Card_svelte_css__WEBPACK_IMPORTED_MODULE_4__);
-/* src\components\Card.svelte generated by Svelte v3.10.0 */
+/* harmony import */ var _Users_maksim_GameView_src_components_Card_svelte_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./src/components/Card.svelte.css */ "./src/components/Card.svelte.css");
+/* harmony import */ var _Users_maksim_GameView_src_components_Card_svelte_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_Users_maksim_GameView_src_components_Card_svelte_css__WEBPACK_IMPORTED_MODULE_4__);
+/* src/components/Card.svelte generated by Svelte v3.10.0 */
 
 
 
@@ -4743,8 +4743,8 @@ function create_else_block(ctx) {
 			t_1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			button1 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("button");
 			button1.textContent = "remove item";
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(button0, "class", "svelte-a020p1");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(button1, "class", "svelte-a020p1");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(button0, "class", "svelte-1dczm4a");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(button1, "class", "svelte-1dczm4a");
 			dispose = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["listen"])(button1, "click", ctx.click_handler_1);
 		},
 
@@ -4784,9 +4784,9 @@ function create_if_block(ctx) {
 	return {
 		c() {
 			button = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("button");
-			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("add to cart\r\n          ");
+			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])("add to cart\n          ");
 			checkmark.$$.fragment.c();
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(button, "class", "svelte-a020p1");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(button, "class", "svelte-1dczm4a");
 			dispose = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["listen"])(button, "click", ctx.click_handler);
 		},
 
@@ -4868,15 +4868,15 @@ function create_fragment(ctx) {
 			if_block.c();
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(img_1, "src", ctx.img);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(img_1, "alt", "test");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(img_1, "class", "svelte-a020p1");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(span0, "class", "name svelte-a020p1");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(span1, "class", "desc svelte-a020p1");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "info svelte-a020p1");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(span2, "class", "price svelte-a020p1");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "text svelte-a020p1");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div2, "class", div2_class_value = "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])((ctx.$userType === _consts__WEBPACK_IMPORTED_MODULE_3__["USER_TYPE"].user ? 'button' : 'buttons')) + " svelte-a020p1");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div3, "class", "wrap svelte-a020p1");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div4, "class", "wrapper svelte-a020p1");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(img_1, "class", "svelte-1dczm4a");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(span0, "class", "name svelte-1dczm4a");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(span1, "class", "desc svelte-1dczm4a");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "info svelte-1dczm4a");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(span2, "class", "price svelte-1dczm4a");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "text svelte-1dczm4a");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div2, "class", div2_class_value = "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])((ctx.$userType === _consts__WEBPACK_IMPORTED_MODULE_3__["USER_TYPE"].user ? 'button' : 'buttons')) + " svelte-1dczm4a");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div3, "class", "wrap svelte-1dczm4a");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div4, "class", "wrapper svelte-1dczm4a");
 		},
 
 		m(target, anchor) {
@@ -4938,7 +4938,7 @@ function create_fragment(ctx) {
 				if_block.m(div2, null);
 			}
 
-			if ((!current || changed.$userType) && div2_class_value !== (div2_class_value = "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])((ctx.$userType === _consts__WEBPACK_IMPORTED_MODULE_3__["USER_TYPE"].user ? 'button' : 'buttons')) + " svelte-a020p1")) {
+			if ((!current || changed.$userType) && div2_class_value !== (div2_class_value = "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])((ctx.$userType === _consts__WEBPACK_IMPORTED_MODULE_3__["USER_TYPE"].user ? 'button' : 'buttons')) + " svelte-1dczm4a")) {
 				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div2, "class", div2_class_value);
 			}
 		},
@@ -5077,9 +5077,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _AddCart_svelte__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./AddCart.svelte */ "./src/components/AddCart.svelte");
 /* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../store */ "./src/store.js");
 /* harmony import */ var _consts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../consts */ "./src/consts.js");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_CardList_svelte_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./src/components/CardList.svelte.css */ "./src/components/CardList.svelte.css");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_CardList_svelte_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_CardList_svelte_css__WEBPACK_IMPORTED_MODULE_7__);
-/* src\components\CardList.svelte generated by Svelte v3.10.0 */
+/* harmony import */ var _Users_maksim_GameView_src_components_CardList_svelte_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./src/components/CardList.svelte.css */ "./src/components/CardList.svelte.css");
+/* harmony import */ var _Users_maksim_GameView_src_components_CardList_svelte_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_Users_maksim_GameView_src_components_CardList_svelte_css__WEBPACK_IMPORTED_MODULE_7__);
+/* src/components/CardList.svelte generated by Svelte v3.10.0 */
 
 
 
@@ -5161,7 +5161,7 @@ function create_if_block_1(ctx) {
 		c() {
 			div = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
 			signbutton.$$.fragment.c();
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "add svelte-8accb3");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "add svelte-zzpf1p");
 		},
 
 		m(target, anchor) {
@@ -5306,9 +5306,9 @@ function create_fragment(ctx) {
 			if (if_block0) if_block0.c();
 			t3 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			if (if_block1) if_block1.c();
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(h1, "class", "svelte-8accb3");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "grid svelte-8accb3");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "root svelte-8accb3");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(h1, "class", "svelte-zzpf1p");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "grid svelte-zzpf1p");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "root svelte-zzpf1p");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "id", "grid");
 		},
 
@@ -5513,9 +5513,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Blur_svelte__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Blur.svelte */ "./src/components/Blur.svelte");
 /* harmony import */ var _CartItem_svelte__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./CartItem.svelte */ "./src/components/CartItem.svelte");
 /* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../store */ "./src/store.js");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Cart_svelte_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./src/components/Cart.svelte.css */ "./src/components/Cart.svelte.css");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Cart_svelte_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Cart_svelte_css__WEBPACK_IMPORTED_MODULE_5__);
-/* src\components\Cart.svelte generated by Svelte v3.10.0 */
+/* harmony import */ var _Users_maksim_GameView_src_components_Cart_svelte_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./src/components/Cart.svelte.css */ "./src/components/Cart.svelte.css");
+/* harmony import */ var _Users_maksim_GameView_src_components_Cart_svelte_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_Users_maksim_GameView_src_components_Cart_svelte_css__WEBPACK_IMPORTED_MODULE_5__);
+/* src/components/Cart.svelte generated by Svelte v3.10.0 */
 
 
 
@@ -5609,9 +5609,9 @@ function create_fragment(ctx) {
 			for (let i = 0; i < each_blocks.length; i += 1) {
 				each_blocks[i].c();
 			}
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(span, "class", "svelte-12qj7qp");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "description svelte-12qj7qp");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])(ctx.classes) + " svelte-12qj7qp");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(span, "class", "svelte-qwboor");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "description svelte-qwboor");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])(ctx.classes) + " svelte-qwboor");
 			dispose = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["listen"])(span, "click", ctx.cartClick);
 		},
 
@@ -5656,7 +5656,7 @@ function create_fragment(ctx) {
 			}
 
 			if (!current || changed.classes) {
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])(ctx.classes) + " svelte-12qj7qp");
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])(ctx.classes) + " svelte-qwboor");
 			}
 		},
 
@@ -5772,9 +5772,9 @@ if (content.locals) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/svelte/internal/index.mjs");
 /* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../store */ "./src/store.js");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_CartItem_svelte_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/components/CartItem.svelte.css */ "./src/components/CartItem.svelte.css");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_CartItem_svelte_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_CartItem_svelte_css__WEBPACK_IMPORTED_MODULE_2__);
-/* src\components\CartItem.svelte generated by Svelte v3.10.0 */
+/* harmony import */ var _Users_maksim_GameView_src_components_CartItem_svelte_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/components/CartItem.svelte.css */ "./src/components/CartItem.svelte.css");
+/* harmony import */ var _Users_maksim_GameView_src_components_CartItem_svelte_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Users_maksim_GameView_src_components_CartItem_svelte_css__WEBPACK_IMPORTED_MODULE_2__);
+/* src/components/CartItem.svelte generated by Svelte v3.10.0 */
 
 
 
@@ -5798,11 +5798,11 @@ function create_fragment(ctx) {
 			button.textContent = "Delete";
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(img_1, "src", ctx.img);
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(img_1, "alt", "cartitem");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(img_1, "class", "svelte-10oslm7");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(button, "class", "svelte-10oslm7");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "info_price svelte-10oslm7");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "info svelte-10oslm7");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div2, "class", "root svelte-10oslm7");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(img_1, "class", "svelte-1mzecj");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(button, "class", "svelte-1mzecj");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "info_price svelte-1mzecj");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "info svelte-1mzecj");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div2, "class", "root svelte-1mzecj");
 			dispose = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["listen"])(button, "click", ctx.click_handler);
 		},
 
@@ -5920,9 +5920,9 @@ if (content.locals) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/svelte/internal/index.mjs");
 /* harmony import */ var svelte__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! svelte */ "./node_modules/svelte/index.mjs");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Checkmark_svelte_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/components/Checkmark.svelte.css */ "./src/components/Checkmark.svelte.css");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Checkmark_svelte_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Checkmark_svelte_css__WEBPACK_IMPORTED_MODULE_2__);
-/* src\components\Checkmark.svelte generated by Svelte v3.10.0 */
+/* harmony import */ var _Users_maksim_GameView_src_components_Checkmark_svelte_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/components/Checkmark.svelte.css */ "./src/components/Checkmark.svelte.css");
+/* harmony import */ var _Users_maksim_GameView_src_components_Checkmark_svelte_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Users_maksim_GameView_src_components_Checkmark_svelte_css__WEBPACK_IMPORTED_MODULE_2__);
+/* src/components/Checkmark.svelte generated by Svelte v3.10.0 */
 
 
 
@@ -5932,7 +5932,7 @@ function create_fragment(ctx) {
 	return {
 		c() {
 			span = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("span");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(span, "class", "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])(ctx.classes) + " svelte-1iw5x5");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(span, "class", "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])(ctx.classes) + " svelte-wk7ghh");
 		},
 
 		m(target, anchor) {
@@ -5941,7 +5941,7 @@ function create_fragment(ctx) {
 
 		p(changed, ctx) {
 			if (changed.classes) {
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(span, "class", "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])(ctx.classes) + " svelte-1iw5x5");
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(span, "class", "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])(ctx.classes) + " svelte-wk7ghh");
 			}
 		},
 
@@ -6043,9 +6043,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_socials_inst_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_img_socials_inst_svg__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _img_socials_telegram_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../img/socials/telegram.svg */ "./src/img/socials/telegram.svg");
 /* harmony import */ var _img_socials_telegram_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_img_socials_telegram_svg__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Footer_svelte_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./src/components/Footer.svelte.css */ "./src/components/Footer.svelte.css");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Footer_svelte_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Footer_svelte_css__WEBPACK_IMPORTED_MODULE_6__);
-/* src\components\Footer.svelte generated by Svelte v3.10.0 */
+/* harmony import */ var _Users_maksim_GameView_src_components_Footer_svelte_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./src/components/Footer.svelte.css */ "./src/components/Footer.svelte.css");
+/* harmony import */ var _Users_maksim_GameView_src_components_Footer_svelte_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Users_maksim_GameView_src_components_Footer_svelte_css__WEBPACK_IMPORTED_MODULE_6__);
+/* src/components/Footer.svelte generated by Svelte v3.10.0 */
 
 
 
@@ -6070,8 +6070,8 @@ function create_each_block(ctx) {
 			a = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("a");
 			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a, "href", a_href_value = ctx.link);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a, "class", "svelte-1fpx11t");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "social_link svelte-1fpx11t");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a, "class", "svelte-1j27jzf");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "social_link svelte-1j27jzf");
 		},
 
 		m(target, anchor) {
@@ -6118,12 +6118,12 @@ function create_fragment(ctx) {
 				each_blocks[i].c();
 			}
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a0, "href", "/");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a0, "class", "svelte-1fpx11t");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a0, "class", "svelte-1j27jzf");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a1, "href", "/");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a1, "class", "svelte-1fpx11t");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "link_block svelte-1fpx11t");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "social_block svelte-1fpx11t");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div2, "class", "root svelte-1fpx11t");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a1, "class", "svelte-1j27jzf");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "link_block svelte-1j27jzf");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "social_block svelte-1j27jzf");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div2, "class", "root svelte-1j27jzf");
 		},
 
 		m(target, anchor) {
@@ -6244,9 +6244,9 @@ if (content.locals) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/svelte/internal/index.mjs");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Form_svelte_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/components/Form.svelte.css */ "./src/components/Form.svelte.css");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Form_svelte_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Form_svelte_css__WEBPACK_IMPORTED_MODULE_1__);
-/* src\components\Form.svelte generated by Svelte v3.10.0 */
+/* harmony import */ var _Users_maksim_GameView_src_components_Form_svelte_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/components/Form.svelte.css */ "./src/components/Form.svelte.css");
+/* harmony import */ var _Users_maksim_GameView_src_components_Form_svelte_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Users_maksim_GameView_src_components_Form_svelte_css__WEBPACK_IMPORTED_MODULE_1__);
+/* src/components/Form.svelte generated by Svelte v3.10.0 */
 
 
 function create_fragment(ctx) {
@@ -6261,7 +6261,7 @@ function create_fragment(ctx) {
 
 			if (default_slot) default_slot.c();
 
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "form svelte-1kselyv");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "form svelte-1ngarsz");
 		},
 
 		l(nodes) {
@@ -6379,9 +6379,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _img_shopping_cart_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../img/shopping-cart.svg */ "./src/img/shopping-cart.svg");
 /* harmony import */ var _img_shopping_cart_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_img_shopping_cart_svg__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../store */ "./src/store.js");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Header_svelte_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./src/components/Header.svelte.css */ "./src/components/Header.svelte.css");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Header_svelte_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Header_svelte_css__WEBPACK_IMPORTED_MODULE_6__);
-/* src\components\Header.svelte generated by Svelte v3.10.0 */
+/* harmony import */ var _Users_maksim_GameView_src_components_Header_svelte_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./src/components/Header.svelte.css */ "./src/components/Header.svelte.css");
+/* harmony import */ var _Users_maksim_GameView_src_components_Header_svelte_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_Users_maksim_GameView_src_components_Header_svelte_css__WEBPACK_IMPORTED_MODULE_6__);
+/* src/components/Header.svelte generated by Svelte v3.10.0 */
 
 
 
@@ -6409,14 +6409,14 @@ function create_fragment(ctx) {
 			t5 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			span = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("span");
 			span.textContent = "cart";
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "black-line svelte-1qez6xl");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "logo svelte-1qez6xl");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div0, "class", "black-line svelte-10uamnh");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div1, "class", "logo svelte-10uamnh");
 			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a, "href", "/auth");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a, "class", "text sarabun svelte-1qez6xl");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div2, "class", "cart svelte-1qez6xl");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(span, "class", "text sarabun svelte-1qez6xl");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div3, "class", "panel svelte-1qez6xl");
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div4, "class", "root svelte-1qez6xl");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(a, "class", "text sarabun svelte-10uamnh");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div2, "class", "cart svelte-10uamnh");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(span, "class", "text sarabun svelte-10uamnh");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div3, "class", "panel svelte-10uamnh");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div4, "class", "root svelte-10uamnh");
 			dispose = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["listen"])(span, "click", ctx.cartClick);
 		},
 
@@ -6532,9 +6532,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/svelte/internal/index.mjs");
 /* harmony import */ var _img_Hero_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/Hero.jpg */ "./src/img/Hero.jpg");
 /* harmony import */ var _img_Hero_jpg__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_img_Hero_jpg__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Hero_svelte_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/components/Hero.svelte.css */ "./src/components/Hero.svelte.css");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Hero_svelte_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Hero_svelte_css__WEBPACK_IMPORTED_MODULE_2__);
-/* src\components\Hero.svelte generated by Svelte v3.10.0 */
+/* harmony import */ var _Users_maksim_GameView_src_components_Hero_svelte_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./src/components/Hero.svelte.css */ "./src/components/Hero.svelte.css");
+/* harmony import */ var _Users_maksim_GameView_src_components_Hero_svelte_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_Users_maksim_GameView_src_components_Hero_svelte_css__WEBPACK_IMPORTED_MODULE_2__);
+/* src/components/Hero.svelte generated by Svelte v3.10.0 */
 
 
 
@@ -6544,8 +6544,8 @@ function create_fragment(ctx) {
 	return {
 		c() {
 			div_2 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("div");
-			div_2.innerHTML = `<div class="img svelte-1e2zi5i"></div> <div class="text svelte-1e2zi5i"><span class="clean svelte-1e2zi5i">clean.</span> <span class="ecology svelte-1e2zi5i">ecology.</span> <span class="recycled svelte-1e2zi5i">recycled.</span> <a href="#grid" class="svelte-1e2zi5i">try it now.</a></div>`;
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div_2, "class", "wrapper svelte-1e2zi5i");
+			div_2.innerHTML = `<div class="img svelte-1dcw1ba"></div> <div class="text svelte-1dcw1ba"><span class="clean svelte-1dcw1ba">clean.</span> <span class="ecology svelte-1dcw1ba">ecology.</span> <span class="recycled svelte-1dcw1ba">recycled.</span> <a href="#grid" class="svelte-1dcw1ba">try it now.</a></div>`;
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div_2, "class", "wrapper svelte-1dcw1ba");
 		},
 
 		m(target, anchor) {
@@ -6627,9 +6627,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Footer_svelte__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Footer.svelte */ "./src/components/Footer.svelte");
 /* harmony import */ var _Cart_svelte__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Cart.svelte */ "./src/components/Cart.svelte");
 /* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../store */ "./src/store.js");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Main_svelte_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./src/components/Main.svelte.css */ "./src/components/Main.svelte.css");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Main_svelte_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_Main_svelte_css__WEBPACK_IMPORTED_MODULE_10__);
-/* src\components\Main.svelte generated by Svelte v3.10.0 */
+/* harmony import */ var _Users_maksim_GameView_src_components_Main_svelte_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./src/components/Main.svelte.css */ "./src/components/Main.svelte.css");
+/* harmony import */ var _Users_maksim_GameView_src_components_Main_svelte_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_Users_maksim_GameView_src_components_Main_svelte_css__WEBPACK_IMPORTED_MODULE_10__);
+/* src/components/Main.svelte generated by Svelte v3.10.0 */
 
 
 
@@ -6673,7 +6673,7 @@ function create_fragment(ctx) {
 			t4 = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["space"])();
 			aside = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("aside");
 			cart.$$.fragment.c();
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])(ctx.rootClasses) + " svelte-6w9c5o");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])(ctx.rootClasses) + " svelte-19rxoiw");
 		},
 
 		m(target, anchor) {
@@ -6695,7 +6695,7 @@ function create_fragment(ctx) {
 
 		p(changed, ctx) {
 			if (!current || changed.rootClasses) {
-				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])(ctx.rootClasses) + " svelte-6w9c5o");
+				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(div, "class", "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])(ctx.rootClasses) + " svelte-19rxoiw");
 			}
 
 			var cart_changes = {};
@@ -6837,9 +6837,9 @@ if (content.locals) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var svelte_internal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! svelte/internal */ "./node_modules/svelte/internal/index.mjs");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_SignButton_svelte_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/components/SignButton.svelte.css */ "./src/components/SignButton.svelte.css");
-/* harmony import */ var D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_SignButton_svelte_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(D_Peace_DOS_MVS_Learning_Svelte_GameView_src_components_SignButton_svelte_css__WEBPACK_IMPORTED_MODULE_1__);
-/* src\components\SignButton.svelte generated by Svelte v3.10.0 */
+/* harmony import */ var _Users_maksim_GameView_src_components_SignButton_svelte_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./src/components/SignButton.svelte.css */ "./src/components/SignButton.svelte.css");
+/* harmony import */ var _Users_maksim_GameView_src_components_SignButton_svelte_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_Users_maksim_GameView_src_components_SignButton_svelte_css__WEBPACK_IMPORTED_MODULE_1__);
+/* src/components/SignButton.svelte generated by Svelte v3.10.0 */
 
 
 function create_fragment(ctx) {
@@ -6849,7 +6849,7 @@ function create_fragment(ctx) {
 		c() {
 			button = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["element"])("button");
 			t = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["text"])(ctx.text);
-			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(button, "class", button_class_value = "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])(((ctx.isPrimary && 'primary') || 'secondary')) + " svelte-4owqyi");
+			Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(button, "class", button_class_value = "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])(((ctx.isPrimary && 'primary') || 'secondary')) + " svelte-33ug59");
 			dispose = Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["listen"])(button, "click", ctx.click_handler);
 		},
 
@@ -6863,7 +6863,7 @@ function create_fragment(ctx) {
 				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["set_data"])(t, ctx.text);
 			}
 
-			if ((changed.isPrimary) && button_class_value !== (button_class_value = "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])(((ctx.isPrimary && 'primary') || 'secondary')) + " svelte-4owqyi")) {
+			if ((changed.isPrimary) && button_class_value !== (button_class_value = "" + Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["null_to_empty"])(((ctx.isPrimary && 'primary') || 'secondary')) + " svelte-33ug59")) {
 				Object(svelte_internal__WEBPACK_IMPORTED_MODULE_0__["attr"])(button, "class", button_class_value);
 			}
 		},
@@ -7199,7 +7199,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function getItem (name, defaultValue) {
+function getItem(name, defaultValue) {
   const expiration = JSON.parse(localStorage.getItem('expiration'));
   if (expiration && new Date(expiration) > new Date()) {
     return JSON.parse(localStorage.getItem(name)) || defaultValue;
@@ -7207,7 +7207,7 @@ function getItem (name, defaultValue) {
   return defaultValue;
 }
 
-function setItemLocally (name, value) {
+function setItemLocally(name, value) {
   localStorage.setItem(name, JSON.stringify(value));
   localStorage.setItem(
     'expiration',
@@ -7217,7 +7217,7 @@ function setItemLocally (name, value) {
 
 const userType = Object(svelte_store__WEBPACK_IMPORTED_MODULE_0__["writable"])(getItem('userType', ''));
 
-function setUserType (newUserType) {
+function setUserType(newUserType) {
   if (newUserType === _consts__WEBPACK_IMPORTED_MODULE_1__["USER_TYPE"].user || newUserType === _consts__WEBPACK_IMPORTED_MODULE_1__["USER_TYPE"].admin) {
     userType.set(newUserType);
     setItemLocally('userType', newUserType);
@@ -7226,14 +7226,14 @@ function setUserType (newUserType) {
 
 const cartItems = Object(svelte_store__WEBPACK_IMPORTED_MODULE_0__["writable"])(getItem('cartItems', []));
 
-function addToCart (item) {
+function addToCart(item) {
   cartItems.update(oldItems => {
     setItemLocally('cartItems', [...oldItems, item]);
     return [...oldItems, item];
   });
 }
 
-function removeFromCart (id) {
+function removeFromCart(id) {
   cartItems.update(oldItems => {
     setItemLocally('cartItems', oldItems.filter(item => item.id !== id));
     return oldItems.filter(item => item.id !== id);
