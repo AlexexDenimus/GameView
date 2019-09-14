@@ -9,7 +9,7 @@
   export let price;
   export let img;
   let successStack = [];
-  let id = Math.floor(Math.random() * 100) + 2 + "" + new Date().getTime() +  Math.floor(Math.random() * 100) + 2 + (Math.random().toString(36).replace(/[^a-zA-Z]+/g, '').substr(0, 5));
+
 
   function add(item) {
     addToCart(item);
@@ -88,7 +88,7 @@
   </div>
   <div class={$userType === USER_TYPE.user ? 'button' : 'buttons'}>
     {#if $userType === USER_TYPE.user}
-      <button on:click={() => add({ id, title, description, price, img })}>
+      <button on:click={() => add({ id: new Date().getTime(), title, description, price, img })}>
         add to cart
         <Checkmark stack={successStack} {popStack} />
       </button>
