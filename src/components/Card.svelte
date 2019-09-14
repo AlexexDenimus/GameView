@@ -1,7 +1,7 @@
 <script>
   import Checkmark from './Checkmark.svelte';
 
-  import { userType, addToCart } from '../store'
+  import { userType, addToCart } from '../store';
   import { USER_TYPE } from '../consts';
 
   export let title;
@@ -11,15 +11,16 @@
   let successStack = [];
   let id = Math.floor(Math.random() * 100) + 2 + "" + new Date().getTime() +  Math.floor(Math.random() * 100) + 2 + (Math.random().toString(36).replace(/[^a-zA-Z]+/g, '').substr(0, 5));
 
-
   function add(item) {
     addToCart(item);
     successStack = [...successStack, 'success'];
   }
 
   const popStack = () => {
-  	successStack = successStack.slice(1, successStack.length);
-  }
+    if (successStack.length > 0) {
+      successStack = successStack.slice(1, successStack.length);
+    }
+  };
 </script>
 
 <style>
@@ -85,16 +86,15 @@
     </div>
     <span class="price">${price}</span>
   </div>
-  <div class='{$userType === USER_TYPE.user ? "button" : "buttons"}'>
-  {#if $userType === USER_TYPE.user}
-    <button
-      on:click="{() => add({id, title, description, price, img})}"
-    >add to cart
-      <Checkmark stack={successStack} popStack={popStack} />
-    </button>
-  {:else}
-    <button>edit item</button>
-    <button>remove item</button>
-  {/if}
+  <div class={$userType === USER_TYPE.user ? 'button' : 'buttons'}>
+    {#if $userType === USER_TYPE.user}
+      <button on:click={() => add({ id, title, description, price, img })}>
+        add to cart
+        <Checkmark stack={successStack} {popStack} />
+      </button>
+    {:else}
+      <button>edit item</button>
+      <button>remove item</button>
+    {/if}
   </div>
 </div>
