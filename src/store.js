@@ -1,15 +1,6 @@
 import { writable } from 'svelte/store';
 
-import { USER_TYPE } from './consts';
-
-// const getUserType = () => {
-//   return localStorage.getItem('userType') || '';
-// };
-
-const setUserTypeLocally = (newUserType) => {
-  localStorage.setItem('userType', newUserType);
-  localStorage.setItem('expiration', new Date(new Date().getTime() + 3600 * 1000));
-};
+import cardList from './cards';
 
 function getItem(name, defaultValue) {
   const expiration = JSON.parse(localStorage.getItem('expiration'));
@@ -21,17 +12,13 @@ function getItem(name, defaultValue) {
 
 function setItemLocally(name, value) {
   localStorage.setItem(name, JSON.stringify(value));
-  localStorage.setItem('expiration', JSON.stringify(new Date(new Date().getTime() + 60 * 1000)));
+  localStorage.setItem(
+    'expiration',
+    JSON.stringify(new Date(new Date().getTime() + 600 * 1000))
+  );
 }
 
 export const userType = writable(getItem('userType', ''));
-
-export function setUserType (newUserType) {
-  if (newUserType === USER_TYPE.user || newUserType === USER_TYPE.admin) {
-    userType.set(newUserType);
-    setItemLocally('userType', newUserType);
-  }
-}
 
 export const cartItems = writable(getItem('cartItems', []));
 
@@ -46,3 +33,19 @@ export function removeFromCart(title) {
     return oldItems.filter(item => item.title !== title);
   });
 }
+
+export const items = writable(getItem('items', cardList.cards));
+
+export const addItem = item =>
+  items.update(oldItems => {
+    const newItems = [...oldItems, { ...item, id: new Date().getTime() }];
+    setItemLocally('items', newItems);
+    return newItems;
+  });
+
+export const removeItem = id =>
+  items.update(oldItems => {
+    const newItems = oldItems.filter(item => item.id !== id);
+    setItemLocally('items', newItems);
+    return newItems;
+  });

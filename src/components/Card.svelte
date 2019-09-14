@@ -1,13 +1,14 @@
 <script>
   import Checkmark from './Checkmark.svelte';
 
-  import { userType, addToCart } from '../store';
+  import { userType, addToCart, removeItem } from '../store';
   import { USER_TYPE } from '../consts';
 
   export let title;
   export let description;
   export let price;
   export let img;
+  export let id;
   let successStack = [];
 
   function add(item) {
@@ -93,7 +94,7 @@
       </button>
     {:else}
       <button>edit item</button>
-      <button>remove item</button>
+      <button on:click={() => removeItem(id)}>remove item</button>
     {/if}
   </div>
 </div>
