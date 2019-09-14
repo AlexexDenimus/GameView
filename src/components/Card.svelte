@@ -49,6 +49,9 @@
   .button {
     padding: 0 20px;
   }
+  .name {
+    max-width: 200px;
+  }
   .name,
   .price {
     font-size: 24px;
@@ -76,26 +79,34 @@
     position: relative;
     outline: none;
   }
+  .wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+  }
 </style>
 
 <div class="wrapper">
   <img src={img} alt="test" />
-  <div class="text">
-    <div class="info">
-      <span class="name">{title}</span>
-      <span class="desc">{description}</span>
+  <div class="wrap">
+    <div class="text">
+      <div class="info">
+        <span class="name">{title}</span>
+        <span class="desc">{description}</span>
+      </div>
+      <span class="price">${price}</span>
     </div>
-    <span class="price">${price}</span>
-  </div>
-  <div class={$userType === USER_TYPE.user ? 'button' : 'buttons'}>
-    {#if $userType === USER_TYPE.user}
-      <button on:click={() => add({ id: new Date().getTime(), title, description, price, img })}>
-        add to cart
-        <Checkmark stack={successStack} {popStack} />
-      </button>
-    {:else}
-      <button>edit item</button>
-      <button on:click={() => removeItem(id)}>remove item</button>
-    {/if}
+    <div class={$userType === USER_TYPE.user ? 'button' : 'buttons'}>
+      {#if $userType === USER_TYPE.user}
+        <button on:click={() => add({ id: new Date().getTime(), title, description, price, img })}>
+          add to cart
+          <Checkmark stack={successStack} {popStack} />
+        </button>
+      {:else}
+        <button>edit item</button>
+        <button on:click={() => removeItem(id)}>remove item</button>
+      {/if}
+    </div>
   </div>
 </div>

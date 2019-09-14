@@ -44,6 +44,6 @@
   <Footer />
 </div>
 <aside>
-  <Cart open={ isCartOpen } />
+  <Cart open={ isCartOpen } on:cartClick={switchCart} />
 </aside>
 
