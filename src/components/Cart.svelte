@@ -1,11 +1,11 @@
 <script>
 import Blur from './Blur.svelte';
-import Card from './Card.svelte';
+import CartItem from './CartItem.svelte';
 
 import { cartItems } from '../store';
 
 export let open = false;
-$: classes = open ? 'wrapper open' : 'wrapper closed';
+$: classes = open ? 'wrapper' : 'wrapper closed';
 </script>
 
 <style>
@@ -23,13 +23,10 @@ $: classes = open ? 'wrapper open' : 'wrapper closed';
   .closed {
     transform: translateX(100%);
   }
-
-  .open {
-  }
 </style>
 
 <div class={classes}>
-    {#each $cartItems as {title, description, price, img}}
-        <Card title={title} description={description} price={price} img={img} />
+    {#each $cartItems as {title, price, img, id}}
+        <CartItem title={title} price={price} img={img} id={id} />
     {/each}
 </div>
