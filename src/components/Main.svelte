@@ -8,6 +8,7 @@
   import About from './About.svelte';
   import Footer from './Footer.svelte';
   import Cart from './Cart.svelte';
+  import Chat from './Chat.svelte';
 
   import { userType } from '../store';
 
@@ -42,6 +43,7 @@
   <CardList />
   <About />
   <Footer />
+  <Chat />
 </div>
 <aside>
   <Cart open={ isCartOpen } on:cartClick={switchCart} />
