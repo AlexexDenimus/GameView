@@ -54,6 +54,7 @@
     ]
   },
   "dependencies": {
+    "socket.io": "^2.2.0",
     "svelte-routing": "^1.4.0"
   }
 }
