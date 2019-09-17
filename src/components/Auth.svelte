@@ -24,10 +24,12 @@
 <div class="wrapper">
   <Form>
     <h1>Login</h1>
-    <SignButton text="Login as shopper" on:click="{() => onClick(USER_TYPE.user)}" />
+    <SignButton
+      text="Login as shopper"
+      on:click={() => onClick(USER_TYPE.user)} />
     <SignButton
       text="Login as admin"
       isPrimary={false}
-      on:click="{() => onClick(USER_TYPE.admin)}" />
+      on:click={() => onClick(USER_TYPE.admin)} />
   </Form>
 </div>

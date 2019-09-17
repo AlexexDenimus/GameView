@@ -8,6 +8,7 @@
         min-width: 100%;
         min-height: 770px;
         background: url('../img/footer.jpg') center / 100% 100% no-repeat;
+        background-size: cover;
         color: white;    
     }
     .text_block {
